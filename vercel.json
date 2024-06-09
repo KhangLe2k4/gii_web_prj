@@ -1,13 +1,10 @@
 {
-    "builds": [{
+    "builds": [
+      {
         "src": "gii_prj/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    }],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "gii_prj/wsgi.py"
-        }
-    ]
-}
+        "use": "@vercel/python"
+      }
+    ],
+    "buildCommand": "pip install --upgrade pip && pip install -r requirements.txt"
+  }
+  
