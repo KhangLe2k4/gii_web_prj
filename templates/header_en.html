@@ -1,0 +1,46 @@
+<div class="navbar-no-shadow" style="background-color: white">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-no-shadow-container w-nav">
+      <div class="container-regular" >
+        <div class="navbar-wrapper">
+          <a href="{% url 'home_en' %}" class="navbar-brand w-nav-brand"><img width="215" sizes="(max-width: 479px) 63vw, 215px" alt="" src="/static/img/Logo_GII_name.png" loading="lazy" srcset="/static/img/Logo_GII_name-p-500.png 500w, /static/img/Logo_GII_name-p-800.png 800w, /static/img/Logo_GII_name-p-1080.png 1080w, /static/img/Logo_GII_name-p-1600.png 1600w, /static/img/Logo_GII_name-p-2000.png 2000w, /static/img/Logo_GII_name-p-2600.png 2600w, /static/img/Logo_GII_name.png 3787w"></a>
+          <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+            <ul role="list" class="nav-menu w-list-unstyled">
+              <li>
+                <a href="{% url 'home_en' %}" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="{% url 'about_en' %}" class="nav-link">About us</a>
+              </li>
+              <li>
+                <a href="{% url 'news_en' %}?page=1" class="nav-link">News</a>
+              </li>
+              <li>
+                <div data-delay="0" data-hover="false" class="nav-dropdown w-dropdown">
+                  <div class="nav-dropdown-toggle w-dropdown-toggle">
+                    <div class="nav-dropdown-icon w-icon-dropdown-toggle"></div>
+                    <div><a href="{% url 'materials_en' %}" class="materials-link">Materials</a></div>
+                  </div>
+                  <nav class="nav-dropdown-list shadow-three mobile-shadow-hide w-dropdown-list">
+                    {% for category in categories %}
+                    <a href="#" class="nav-dropdown-link w-dropdown-link">{{category.name}}</a>
+                    {% endfor%}
+                  </nav>
+                </div>
+              </li>
+              <li>
+                <a href="{% url 'club_en' %}" class="nav-link">Old Fox</a>
+              </li>
+              <li>
+                <a href="{% url 'contact_en' %}" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+          <div id="lang-bttn"><a href="{% url 'select_language' language_code='fi' %}"><i class="fa-solid fa-globe"></i> FI</a></div>
+          <div class="menu-button w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>

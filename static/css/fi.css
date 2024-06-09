@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0%;
+}
+.header-main{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color: #151515;
+    background-color:transparent;
+    position: sticky;
+
+}
+
+.header-main-logo{
+    width: 250px;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header-main-logo img{
+    width: 100%;
+    height: 100px;
+}
+
+.header-main-nav{
+    width: 800px;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.header-main-nav ul{
+    list-style: none;
+    margin-top: 50px;
+    
+}
+.header-main-nav ul li{
+    display: inline;
+    margin-right: 34px;
+}
+
+.header-main-nav ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+}
+
+.header-main-nav ul li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.header-main-lang{
+    width: 120px;
+    height: 100%;  
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  
+}
+
+.header-main-lang a{
+    font-size: 18px;
+    color: black;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-main-lang a:hover{
+    text-decoration: underline;
+    text-decoration-color: #151515;
+    text-decoration-thickness: 3px;
+}
+
+
+.foot {
+     /* Change to 'fixed' */
+    left: 0; /* Set left edge to 0 */
+    bottom: 0; /* Set bottom edge to 0 */
+    width: 100%; /* Make the footer span the entire width of the viewport */
+    background-color: #151515;
+    height: 150px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+

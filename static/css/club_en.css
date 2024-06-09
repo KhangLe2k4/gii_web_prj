@@ -1,0 +1,24 @@
+main{
+    background-image: url('../img/fox.jpg');
+    height: 650px;
+    
+}
+
+.form{
+    margin: auto;
+    width: 50%;
+    padding-top: 100px;
+    background-color: rgb(12, 12, 12,0.5);
+    color: white;
+    padding-bottom: 100px;
+}
+
+form{
+    margin-top: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.foot{
+    margin-top: 0px;
+}

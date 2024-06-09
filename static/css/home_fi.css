@@ -1,0 +1,124 @@
+.news h2{
+    margin-left: 40px;
+    font-size: 2rem;
+    font-family: inter, sans-serif;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.hr-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hr-container hr {
+    height: 5px;
+    background-color: #151515;
+    margin-bottom: 10px;
+}
+
+#all-news {
+    display: block; /* Ensure it's a block-level element */
+    width: 100%; /* Cover the entire width of its container */
+    height: fit-content; /* Adjust the height to fit its content */
+    margin-top: 10px; /* Adjust as needed */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center the text horizontally */
+    background-color: rgb(225, 230, 235); /* Set background color */
+}
+
+#all-news a {
+    font-size: 2rem;
+    font-family: inter, sans-serif;
+    font-weight: bold;
+    color: #151515;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#all-news a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 10, 255);
+    text-decoration-thickness: 5px;
+}
+
+
+.news-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    max-height: 830px;
+    margin: 0 40px; 
+}
+
+.post {
+    width: calc(33.33% - 20px); /* Adjusted width */
+    margin: 10px; /* Adjusted margin */
+    margin-top: 1px;
+    box-sizing: border-box; /* Added box-sizing */
+    height: 400px;
+}
+
+.post img {
+    width: 100%; /* Ensure images fill the width of the post */
+    height: 230;
+    object-fit: cover; 
+    min-width: 200px;
+}
+.post-content{
+    margin-top: 10px;
+    height: 140px;
+   
+    font-weight: bold;
+    font-family: inter, sans-serif;
+    background-color:#151515;
+   
+ 
+}
+
+.post-content h3{
+    font-weight: lighter;
+    font-size: 15px;
+    color: white;
+    padding-top: 8px;
+    margin-left: 9px;
+    margin-bottom: 2px;
+   
+   
+}
+
+.content{
+    padding-top: 4px;
+    font-size: 17px;
+    color: white;
+    margin-left: 9px;
+    margin-right: 9px;
+    height: 64px;
+    word-break: normal;
+    
+}
+
+
+.post-content a{
+    float: right;
+    margin: 9px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.post-content a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 10, 255);
+    text-decoration-thickness: 3px;
+}
+
+
+
+
+
+
+
+
+
